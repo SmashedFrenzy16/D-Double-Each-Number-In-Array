@@ -7,4 +7,10 @@ void main()
   int i = 0;
   
   while (i < arr)
+  {
+    arr[i++] *= 2;
+  }
+  
+  writeln(arr);
+  
 }
